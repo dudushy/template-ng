@@ -8,6 +8,11 @@ $dark: #222428;
 $medium: #92949c;
 $light: #f4f5f8;
 
+app-root {
+  height: 100%;
+  // width: 100%;
+}
+
 #content {
   background-color: #92949c9a;
   border-radius: 10px;
@@ -17,6 +22,7 @@ $light: #f4f5f8;
   animation-iteration-count: infinite;
 }
 
+* { font-size: 1.5vw; }
 *[theme="dark"] {
   background-color: $dark;
   color: $light;
@@ -27,13 +33,19 @@ $light: #f4f5f8;
   color: $dark;
 }
 
+html, body, app-root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  // overflow: hidden;
+}
+
 body {
   animation: rainbow-dead-background 50s linear;
   animation-iteration-count: infinite;
   transition: 0.2s;
   text-align: center;
   font-family: monospace;
-  font-size: 1vw;
 }
 
 
