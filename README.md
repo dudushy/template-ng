@@ -15,3 +15,7 @@ Template for Angular projects.
     ```bash
     npm start
     ```
+3. Build project
+    ```bash
+    npm run build
+    ```
