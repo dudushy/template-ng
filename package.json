@@ -1,0 +1,9 @@
+{
+  "name": "template-ng",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ng serve",
+    "build": "ng build",
+    "deploy": "bash ./build_n_deploy.sh"
+  }
+}
